@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:shrinkColumns="1,2">
+ 
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+ 
+     <Button
+         android:id="@+id/btAdicionar"
+         android:layout_height="35dp"
+         android:layout_width="match_parent"
+         android:text="@string/adicionar" />
+         
+    </TableRow>
+ 
+    <ListView
+        android:id="@+id/listaSeries"
+        android:smoothScrollbar="true"
+        android:background="#FFF">
+    </ListView>
+     
+    
+
+    
+    
+</TableLayout>
